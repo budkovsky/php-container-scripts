@@ -1,0 +1,17 @@
+{
+    "name": "budkovsky/php-container-scripts",
+    "description": "Script set to manage PHP cotanier commands - build, run, exec, remove etc.",
+    "type": "library",
+    "license": "MIT",
+    "bin": [
+        "bin/container-build.sh",
+        "bin/container-start.sh",
+        "bin/container-composer.sh",
+        "bin/container-php.sh",
+        "bin/container-prune.sh",
+        "bin/container-remove.sh",
+        "bin/container-run.sh",
+        "bin/container-stop.sh",
+        "bin/container-testdox.sh"
+    ]
+}
